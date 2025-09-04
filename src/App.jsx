@@ -5,11 +5,20 @@ class Counter extends React.Component {
     super(props)
     this.state = {count:5}
   }
+
+  handleDecrement () {
+    console.log(this.state.count);
+  }
+
+  handleIncrement () {
+    console.log(this.state.count);
+  }
+
   render() {
     return <div>
-      <button onClick={handleDec}>-</button>
+      <button onClick={handleDecrement}>-</button>
       <span>{this.state.count}</span>
-      <button onClick={handleInc}>+</button>
+      <button onClick={handleIncrement}>+</button>
     </div>
   }
 }
