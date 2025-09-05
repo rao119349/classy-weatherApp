@@ -90,3 +90,8 @@ input:focus {
   font-size: 2.4rem;
   font-weight: 700;
 }
+
+button {
+  padding: 10px;
+  margin: 5px;
+}
